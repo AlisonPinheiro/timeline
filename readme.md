@@ -1,10 +1,10 @@
 # 📊 Airtable Timeline
 
-Aplicação React + TypeScript que renderiza uma timeline interativa com base em itens contendo datas de início e fim. Desenvolvido com foco em performance, responsividade e experiência de usuário fluida.
+A React + TypeScript application that renders an interactive timeline based on items with start and end dates. Built with a focus on performance, responsiveness, and a smooth user experience.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **Node.js 20**
 - **React 18**
@@ -15,7 +15,7 @@ Aplicação React + TypeScript que renderiza uma timeline interativa com base em
 
 ---
 
-## 🗂️ Estrutura de Pastas
+## 🗂️ Project Structure
 
 ```
 src/
@@ -48,7 +48,7 @@ src/
 
 ---
 
-## 🧰 Scripts Disponíveis
+## 🧰 Available Scripts
 
 ```json
 "scripts": {
@@ -58,9 +58,9 @@ src/
 
 ---
 
-## 🧪 Mock de Dados
+## 🧪 Mock Data
 
-O arquivo `timelineItems.ts` contém uma lista de objetos com:
+The `timelineItems.ts` file contains an array of objects:
 
 ```ts
 {
@@ -73,19 +73,19 @@ O arquivo `timelineItems.ts` contém uma lista de objetos com:
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
-- Organização em múltiplas "lanes" (faixas horizontais)
-- Drag & drop para movimentação de eventos
-- Resize pelas bordas para ajustar datas
-- Edição de nomes por duplo clique
-- Navegação por período com setas
-- Zoom com botões e scroll + ctrl/cmd
-- Interface responsiva e leve
+- Organized into multiple horizontal lanes to avoid overlaps
+- Drag & drop support to move events
+- Resizable items by dragging edges
+- Editable event names via double-click
+- Period navigation with arrows
+- Zoom controls via buttons and Ctrl/Cmd + scroll
+- Fully responsive interface using TailwindCSS
 
 ---
 
-## 📦 Instalação
+## 📦 Installation
 
 ```bash
 git clone <repo-url>
@@ -96,23 +96,23 @@ npm run start
 
 ---
 
-## ✅ Requisitos
+## ✅ Requirements
 
 - Node.js **v20+**
 - npm **v9+**
-- Navegador moderno
+- Modern browser
 
 ---
 
-## 💡 Melhorias Futuras
+## 💡 Future Improvements
 
-- Integração com a API do Airtable
-- Exportação para PDF ou imagem
-- Seleção múltipla e ações em lote
-- Marcação de datas especiais (ex: hoje, feriados)
+- Integration with Airtable API
+- Export timeline as PDF or image
+- Multi-select and batch actions
+- Special date markers (e.g. today, holidays)
 
 ---
 
-## 🧠 Autor
+## 🧠 Author
 
-Projeto desenvolvido por Renan.
+Project developed by Renan.
